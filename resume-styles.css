@@ -1,4 +1,61 @@
 body {
   margin: 0;
-  background-color: red;
+  
+}
+
+.grid-container {
+  background-color: blue;
+  height: 100%;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+} 
+img {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 100%;
+}
+.contact-details {
+  background-color: brown;
+  grid-column: 1/2;
+  grid-row: 3/4;
+
+}
+
+.work-references {
+  background-color: chartreuse;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.your-resume-name {
+  background-color: darkmagenta;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.personal-summary {
+  background-color: forestgreen;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.core-skills {
+  background-color: greenyellow;
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+}
+.work-history {
+  background-color: violet;
+  grid-column: 2/4;
+  grid-row: 3/4;
+
+}
+.academic-history {
+  background-color: maroon;
+  grid-column: 2/4;
+  grid-row: 4/5;
+
+}
+p {
+  margin: 0;
 }
