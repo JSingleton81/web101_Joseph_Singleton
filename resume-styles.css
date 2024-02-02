@@ -6,6 +6,7 @@ body {
 .grid-container {
   background-color: blue;
   height: 100%;
+  width: 100%;
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(3,1fr);
@@ -66,4 +67,14 @@ h4{
 
 h5 {
   margin: 0;
+}
+
+.flex-pair {
+  display: flex;
+  
+}
+
+h3.h3same {
+  /* border: 1px solid  green; */
+  width: 50%;
 }
