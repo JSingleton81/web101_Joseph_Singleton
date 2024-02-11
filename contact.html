@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact-styles.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  
+  <div class="grid-container">
+
+    
+
+    <form action="" class="bottom-grid">
+
+      <section class="contact">
+        <h1>Contact Us</h1>
+      </section>
+      
+      <section class="email">
+        <div class="email1">
+          <h2>Enter Email Address</h2>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required/>
+        </div>
+      </section>
+
+      <section class="comments">
+        <label for="comments">Leave Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Comments" maxlength="500" minlength="20"></textarea>
+      </section>
+      
+      <section class="about-me">
+        <p>How did you hear about me?</p>
+        <input type="checkbox" id="option1" name="option1" value="Classmate">
+        <label for="option1"> Classmate</label><br>
+        <input type="checkbox" id="option2" name="option2" value="ResumeSubmission">
+        <label for="option2"> Resume Submission</label><br>
+        <input type="checkbox" id="option3" name="option3" value="LinkedIn">
+        <label for="option3"> LinkedIn</label><br>
+        <input type="checkbox" id="option4" name="option4" value="CodingAcademyRec">
+        <label for="option4"> Coding Academy Rec.</label><br>
+      </section> 
+      
+      <section class="contact-back">
+        <p>Would you like to be contacted back?</p>
+        <input type="radio" id="yes" name="fav_language" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="fav_language" value="No">
+        <label for="no">No</label><br>
+      </section>
+
+      <section class="birthday">
+        <label for="birthday">Enter your birthday for a birthday wish:</label>
+        <input type="date" id="birthday" name="birthday">
+      </section>
+
+      <section class="submit">
+        <button type="submit">submit</button>
+      </section>
+
+    </form>
+    
+  </div>
+    
+</body>
+</html>
